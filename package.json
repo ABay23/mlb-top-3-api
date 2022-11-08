@@ -2,9 +2,8 @@
   "name": "mlb-top-3-api",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/server.js",
+  "main": "server.js",
   "scripts": {
-    "test": "mocha",
     "start": "node server.js"
   },
   "author": "ABay23",
