@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const PORT = 8000
-const teams = require('./data/mlb-teams')
+const teams = require('../data/mlb-teams')
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html')
